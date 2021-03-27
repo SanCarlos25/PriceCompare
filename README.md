@@ -8,6 +8,15 @@ TEST 1: Test Commit (Biraj Singh GC)
 #*SCRUM AGILE BOARD*
 
 #Stories:
+
+  -User can login
+  -User can sign up 
+  -User can adjust budget expense, distance to travel, and what stores they want to shop at
+  -User can create a shopping list
+  -User can save and edit a list
+  -User can see results and click a link to get directions to that store
+  
+  
 #TO DO:
 #On Process:
 #Completed:
