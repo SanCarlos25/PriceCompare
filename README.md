@@ -38,12 +38,12 @@ The app uses a database of common grocery items. Users create shopping lists com
 
 ### App Evaluation
 [Evaluation of your app across the following attributes]
-- **Category:**
-- **Mobile:**
-- **Story:**
-- **Market:**
-- **Habit:**
-- **Scope:**
+- **Category:** Shopping/ Coupon
+- **Mobile:** This app would be primarily developed for mobile but would perhaps be just as viable on a computer, such as tinder or other similar apps. Functionality wouldn’t be limited to mobile devices
+- **Story:** Analyzes Users shopping list to evaluate/dertermine the perfect store to shop at making their budget, location, radius and store as factors.
+- **Market:** Any individual willing to save money on shopping could use this app.
+- **Habit:** This app can be used often as it is planned to save money for users which people usually tend to do.
+- **Scope:** There is a large potential for the app if we manage to attract users with easy to navigate app.
 
 ## Product Spec
 
