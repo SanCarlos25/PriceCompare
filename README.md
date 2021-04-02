@@ -72,43 +72,30 @@ The app uses a database of common grocery items. Users create shopping lists com
 
 ### 2. Screen Archetypes
 
-* [list first screen here]
-   * [list associated required story here]
-   * ...
-* [list second screen here]
-   * [list associated required story here]
-   * ...
+* Login 
+* Sign Up / Register
+* List Screen
+    *This tab has previosly saved list that user can access. 
+    *User also has an option to create a new list, edit list or delete old list in this tab.
+* Create list
+    * Filter Screen: Allows user to select their filter
+    * Location: Allows user to enter location
+    * New List: Allows user to add new item
+* Result Screen
 
 ### 3. Navigation
 
 **Tab Navigation** (Tab to Screen)
 
-* [fill out your first tab]
-* [fill out your second tab]
-* [fill out your third tab]
+* List
 
 **Flow Navigation** (Screen to Screen)
 
-* [list first screen here]
-   * [list screen navigation here]
-   * ...
-* [list second screen here]
-   * [list screen navigation here]
-   * ...
+* Login -> List
+* List -> Create list(Filter Screen) | List -> Result Screen | List -> New List(Edit list)
+* Filter Screen -> Location -> New List
+* New List -> Result
 
 ## Wireframes
 [Add picture of your hand sketched wireframes in this section]
-<img src="YOUR_WIREFRAME_IMAGE_URL" width=600>
-
-### [BONUS] Digital Wireframes & Mockups
-
-### [BONUS] Interactive Prototype
-
-## Schema 
-[This section will be completed in Unit 9]
-### Models
-[Add table of models]
-### Networking
-- [Add list of network requests by screen ]
-- [Create basic snippets for each Parse network request]
-- [OPTIONAL: List endpoints if using existing API such as Yelp]
+<img src="wireframe.jpg" width=600>
