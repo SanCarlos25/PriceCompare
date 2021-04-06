@@ -29,6 +29,7 @@ TEST 1: Test Commit (Biraj Singh GC)
 1. [Overview](#Overview)
 1. [Product Spec](#Product-Spec)
 1. [Wireframes](#Wireframes)
+1. Schema
 
 
 ## Overview
@@ -99,3 +100,35 @@ The app uses a database of common grocery items. Users create shopping lists com
 ## Wireframes
 [Add picture of your hand sketched wireframes in this section]
 <img src="wireframe.jpg" width=600>
+
+# Schema
+
+## Models 
+
+##### User: 
+
+Property | Type | Description
+----------|----| ----------
+username | String | name of the current user
+address | String | address saved by user
+
+
+##### Product: 
+
+Property | Type | Description 
+---------| ------| ----------
+name | String | item name 
+price | Number | price of the item 
+store_name | String | the store name of where the item is located
+
+##### Store: 
+
+Property | Type | Description 
+---------| ------| --------
+street | String | street of store
+city | String | city of store
+state | String | state of store
+zip | String | zipcode of store location 
+
+
+
