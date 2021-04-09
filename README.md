@@ -130,5 +130,28 @@ city | String | city of store
 state | String | state of store
 zip | String | zipcode of store location 
 
+### Networking
+#### List of network requests by screen
+   - List Screen
+      - (Create/POST) Create a new list
+      - (Delete) Delete existing list
+      - (Create/POST) Edit Existing list
+   - Create List screen 
+      - (Create/POST) Add objects to list
+   - result screen
+      - (Read/GET) Query data from IM API
+      
+
+##### An API Of Information Machine
+- Base URL - [https://api.iamdata.co/](https://api.iamdata.co/)
+ HTTP Verb | Endpoint | Description
+   ----------|----------|------------
+    `GET`    | /v1/product_prices | get product prices
+    `GET`    | /v1/products/{product_id} | get product name
+    `GET`    | /v1/products/{product_id} | get product id
+    `GET`    | /v1/user_stores | get store information.
+    
+    
+
 
 
