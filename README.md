@@ -2,9 +2,9 @@
 
  *PriceCompare* is an android app that uses a database of common grocery items. Users create shopping lists composing of such items. The system then computes how much their shopping bill would cost at various nearby grocery stores. Results are displayed for the user to determine where the best place for purchase is. For a more accurate estimation, the app's store visit estimation can also include the cost of gas in traveling. The purpose of this app is to help the user save money by making smarter, small decisions in their everyday lives. App would use APIs like the Kroger API or Walmart Open API, GPS, and Google Maps (this is the Distance Matrix API) to find nearby locations. App may also use a coupon API to further the mission of saving the user money.
 
-#*SCRUM AGILE BOARD*
+## *SCRUM AGILE BOARD*
 
-#Stories:
+## Stories:
 
 - [ ] User can login
 - [ ] User can sign up 
@@ -35,7 +35,8 @@
 *PriceCompare* is an android app that uses a  a database of common grocery items. Users create shopping lists composing of such items. The system then computes how much their shopping bill would cost at various nearby grocery stores. Results are displayed for the user to determine where the best place for purchase is. For a more accurate estimation, the app's store visit estimation can also include the cost of gas in traveling. The purpose of this app is to help the user save money by making smarter, small decisions in their everyday lives. App would use APIs like the Kroger API or Walmart Open API, GPS, and Google Maps (this is the Distance Matrix API) to find nearby locations. App may also use a coupon API to further the mission of saving the user money.
 
 ### App Evaluation
-[Evaluation of your app across the following attributes]
+The app PriceCompare is evaluated across the following attributes.
+
 - **Category:** Shopping/ Coupon
 - **Mobile:** This app would be primarily developed for mobile but would perhaps be just as viable on a computer, such as tinder or other similar apps. Functionality wouldn’t be limited to mobile devices
 - **Story:** Analyzes Users shopping list to evaluate/dertermine the perfect store to shop at making their budget, location, radius and store as factors.
