@@ -1,5 +1,111 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent" android:layout_height="match_parent">
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
 
+    <TextView
+        android:id="@+id/AppNameHeader"
+        android:layout_width="match_parent"
+        android:layout_height="58dp"
+        android:text="Price Compare"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/FilterPageTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="142dp"
+        android:layout_marginTop="100dp"
+        android:text="Filters"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/BudgetHeader"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="175dp"
+        android:text=" What's your budget?"
+        android:textAlignment="viewStart"
+        android:textSize="24sp"
+        android:textStyle="italic" />
+
+    <EditText
+        android:id="@+id/etMaxBudget"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="210dp"
+        android:layout_marginEnd="25dp"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        tools:text="Max Budget" />
+
+    <TextView
+        android:id="@+id/DistanceHeader"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="290dp"
+        android:text="How far will you travel?"
+        android:textSize="24sp"
+        android:textStyle="italic" />
+
+    <SeekBar
+        android:id="@+id/sbDistance"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="340dp"
+        android:max="25"
+        android:progress="10"
+        android:soundEffectsEnabled="false" />
+
+    <TextView
+        android:id="@+id/tvSelectedStores"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="415dp"
+        android:text="Stores to compare: "
+        android:textSize="24sp"
+        android:textStyle="italic" />
+
+    <CheckBox
+        android:id="@+id/cbKroger"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="450dp"
+        android:text="Kroger"
+        android:textSize="18sp" />
+
+    <CheckBox
+        android:id="@+id/cbWalmart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="485dp"
+        android:text="Walmart"
+        android:textSize="18sp" />
+
+    <CheckBox
+        android:id="@+id/cbTarget"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="520dp"
+        android:text="Target"
+        android:textSize="18sp" />
+
+    <CheckBox
+        android:id="@+id/cbHEB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="555dp"
+        android:text="HEB"
+        android:textSize="18sp" />
 </RelativeLayout>
